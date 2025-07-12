@@ -371,3 +371,36 @@
   padding: 24px 50px;
 }
 /* ========================= */
+
+/*  footer css */
+#footer {
+  background: rgb(7, 2, 17);
+}
+#footer .footer-content {
+  padding: 120px 0;
+}
+#footer .footer-content .address {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer-content .address p,
+.copy-right p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+#footer .footer-content .social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 50px 0;
+  padding: 50px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+#footer .footer-content .copy-right {
+  display: flex;
+  justify-content: space-between;
+}
