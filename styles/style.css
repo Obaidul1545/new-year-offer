@@ -228,3 +228,48 @@
   line-height: 32px;
   margin: 16px 0 22px;
 }
+/* =================== */
+
+/* Holidays sale part css */
+#holiday-sale {
+  margin: 100px 0;
+}
+#holiday-sale .holiday-content h4 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+#holiday-sale .holiday-content h2 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  margin: 16px 0 28px;
+}
+#holiday-sale .holiday-content h2 span {
+  color: rgb(255, 0, 0);
+}
+#holiday-sale .holiday-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 126px;
+}
+#holiday-sale .holiday-content .images {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 64px;
+  background: url(../images/Rectangle2.png) no-repeat;
+  background-position: bottom;
+}
+#holiday-sale .holiday-content .images .image-2 img {
+  padding: 77px 40px 0 0;
+}
+/* =========== */
+
+/* Gifts part css  */
