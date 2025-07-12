@@ -78,6 +78,7 @@
 
 #midnight-party .container {
   background: url(../images/Vectorrr.png) no-repeat center center/cover;
+  border-radius: 16px;
 }
 #midnight-party .midnight-content {
   background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
@@ -86,6 +87,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  border-radius: 16px;
 }
 #midnight-party .midnight-content .left {
   flex: 3;
@@ -168,4 +170,61 @@
 #party-date .party-date-content button:hover {
   color: black;
   background: transparent;
+}
+/* =========== */
+
+/*  Best offer part css */
+#best-offer {
+  margin: 50px 0;
+}
+#best-offer .offer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+#best-offer .offer-content .column {
+  flex: 1;
+}
+#best-offer .offer-content .content-1 h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+#best-offer .offer-content .content-1 h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  margin: 16px 0 22px;
+}
+#best-offer .offer-content .content-1 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+#best-offer .offer-content .image img {
+  border: 15px solid #ff0000;
+  border-radius: 50%;
+  padding: 40px;
+}
+#best-offer .offer-content .content-2 h2 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+#best-offer .offer-content .content-2 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 16px 0 22px;
 }
