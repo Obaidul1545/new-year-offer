@@ -273,3 +273,101 @@
 /* =========== */
 
 /* Gifts part css  */
+#gifts {
+  margin: 100px 0;
+}
+
+#gifts .gifts-content h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+#gifts .gifts-content h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  margin: 16px 0 22px;
+}
+#gifts .gifts-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-right: 424px;
+}
+#gifts .gifts-content .gifts-item {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+/* ============== */
+
+/* Subscribe Newsletter  css */
+#subscribe {
+  margin: 100px 0;
+}
+#subscribe .subscribe-content {
+  border-radius: 16px;
+  padding: 80px 212px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+}
+#subscribe .subscribe-content h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  margin: 40px 0 22px;
+}
+#subscribe .subscribe-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+#subscribe .subscribe-content .search-bar {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#subscribe .subscribe-content .search-bar .search input {
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 25px 30px;
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+  border: none;
+  width: 648px;
+}
+
+#subscribe .subscribe-content .search-bar .btn input {
+  position: absolute;
+  right: 0;
+  transform: translateX(-64%);
+  height: 100%;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  background: #ff0000;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  padding: 24px 50px;
+}
+/* ========================= */
