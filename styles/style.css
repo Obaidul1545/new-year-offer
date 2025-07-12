@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* ========== */
+#banner {
+  margin: 40px 0 80px;
+}
+
+#banner .container {
+  background: url(../images/BannerImage.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#banner .banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+
+#banner .banner-content h3 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+#banner .banner-content h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+/* ========== */
+/* ALL CATEGORIES css */
+#cataegories .cataegories-content {
+  text-align: center;
+}
+#cataegories .cataegories-content h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+}
+#cataegories .cataegories-content p {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin: 48px 0 16px;
+}
+#cataegories .cataegories-content h3 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 48px;
+}
+/* ========== */
+
+#midnight-party {
+  margin: 120px 0;
+}
+
+#midnight-party .container {
+  background: url(../images/Vectorrr.png) no-repeat center center/cover;
+}
+#midnight-party .midnight-content {
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+  padding: 68px 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+#midnight-party .midnight-content .left {
+  flex: 3;
+}
+#midnight-party .midnight-content .left h2 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  padding-right: 100px;
+}
+#midnight-party .midnight-content .left p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 0 48px;
+}
+#midnight-party .midnight-content .left button {
+  color: rgb(255, 255, 255);
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px 32px;
+  transition: 0.5s;
+}
+
+#midnight-party .midnight-content .left button:hover {
+  background: #ff0000;
+}
+
+#midnight-party .midnight-content .right {
+  flex: 1;
+}
+/* ============ */
+
+/* party date css */
+#party-date {
+  margin: 100px 0;
+}
+#party-date .party-date-content {
+  padding: 100px 100px 200px;
+  text-align: center;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+#party-date .party-date-content h3 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+#party-date .party-date-content span {
+  color: #ff0000;
+}
+#party-date .party-date-content button {
+  margin-top: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  background: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 32px;
+  transition: 0.5s;
+}
+#party-date .party-date-content button:hover {
+  color: black;
+  background: transparent;
+}
